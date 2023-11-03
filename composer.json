@@ -1,0 +1,22 @@
+{
+    "name": "depardieu/knalsonmusic",
+    "description": "Site pour un groupe de musique",
+    "authors": [
+        {
+            "name": "Depardieu NGUETEBE",
+            "email": "depardieu.nguetebe@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\":"src/"
+        }
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "symfony/var-dumper": "^5.4",
+        "filp/whoops": "^2.15",
+        "vlucas/valitron": "^1.4",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
